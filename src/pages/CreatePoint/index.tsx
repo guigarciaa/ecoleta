@@ -208,7 +208,7 @@ const CreatePoint: React.FC = () => {
                 value={selectedUf}
                 onChange={handleSelectUf}
               >
-                <option value="0">Selecione uma UF</option>
+                <option value="0">Selecione uma cidade</option>
                 {ufs.map((uf) => (
                   <option key={uf} value={uf}>
                     {uf}
